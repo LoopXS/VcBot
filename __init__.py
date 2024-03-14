@@ -378,7 +378,7 @@ async def dl_playlist(chat, from_user, link):
 
 
 async def file_download(event, reply, fast_download=True):
-    thumb = "https://telegra.ph/file/9847d2c66379f4da3b29d.mp4"
+    thumb = random.choice(["https://graph.org/file/320a0bfca4f7e4aff8885.png", "https://graph.org/file/a9e6a44de11249185cd32.png", "https://graph.org/file/a82db933bcd88e035a546.jpg", "https://graph.org/file/110bf665f0fdbb1a3bcdc.jpg",])
     title = reply.file.title or reply.file.name or f"{str(time())}.mp4"
     file = reply.file.name or f"{str(time())}.mp4"
     if fast_download:
