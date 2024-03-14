@@ -18,7 +18,7 @@ async def wiqhshd(e):
     res = [
         await builder.article(
             title="Vc Help",
-            text="** CɪᴘʜᴇʀX VCBot Help Menu**\n\n",
+            text="**VCBot Help Menu**\n\n",
             buttons=Button.inline("Voice Chat Help", data="uh_VCBot_"),
         )
     ]
